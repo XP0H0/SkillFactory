@@ -151,7 +151,7 @@ button:hover{
     text-transform: uppercase;
     justify-content: flex-end;
     padding-top: 107px;
-    color: #E3B873
+
 
 }
 
@@ -164,6 +164,12 @@ button:hover{
 
 .hero__nav__list{
     margin-right: 61px;
+}
+
+.hero__nav__list:hover{
+    text-decoration: underline;
+    color: #E3B873;
+    cursor: pointer;
 }
 
 .hero__subtitle{
@@ -195,8 +201,31 @@ button:hover{
 }
 .option__h3{
     color: #E3B873;
+    font-family: 'YesevaOne';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
 }
 
 .option__span{
     color: #fff;
+    font-family: 'NunitoSans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.hero__option{
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+.hero__option__frag{
+    height: 40%;
+    width: 40%;
 }
