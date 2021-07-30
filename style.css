@@ -177,7 +177,7 @@ button:hover{
     height: 1074px;
 }
 .hero__h2{
-    font-family: Yeseva One;
+    font-family: 'YesevaOne';
     font-style: normal;
     font-weight: normal;
     font-size: 27px;
@@ -228,4 +228,28 @@ button:hover{
 .hero__option__frag{
     height: 40%;
     width: 40%;
+}
+.main{
+    margin-top: -400px;
+}
+
+.main__h3{
+    font-family: 'YesevaOne';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.svg__img{
+    display: inline;
+    background: #E3B873;
+    height: 32px;
+    width: 28px;
+    color: #fff;
+}
+.icon{
+    fill: #E3B873;
 }
