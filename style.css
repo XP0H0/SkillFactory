@@ -114,6 +114,7 @@ button:hover{
     position: relative;
     z-index: 1;
 
+
 }
 
 .title{
@@ -137,4 +138,65 @@ button:hover{
     font-size: 22px;
     line-height: 36px;
     margin: 19px 0px 41px;
+}
+
+.hero__nav{
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'YesevaOne';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    justify-content: flex-end;
+    padding-top: 107px;
+    color: #E3B873
+
+}
+
+.hero__admiral{
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero__nav__list{
+    margin-right: 61px;
+}
+
+.hero__subtitle{
+    background: #000;
+    height: 1074px;
+}
+.hero__h2{
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.hero__text{
+    color: #fff;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.img__subtitle{
+    padding-top: 69px;
+    height: 482px;
+    width: 679px;
+
+}
+.option__h3{
+    color: #E3B873;
+}
+
+.option__span{
+    color: #fff;
 }
