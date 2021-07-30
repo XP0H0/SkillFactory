@@ -1,16 +1,26 @@
 @font-face {
-    font-family: Yeseva One;
-    src: url(\fonts\YesevaOne\YesevaOne-Regular.ttf);
+    font-family: 'YesevaOne';
+    src: url(./fonts/YesevaOne/YesevaOne-Regular.ttf);
+    font-style: normal; 
+    font-weight: normal;
 }
 @font-face {
-    font-family: Nunito Sans;
-    src: url(\fonts\NunitoSans\NunitoSans-Regular.ttf);
+    font-family: 'NunitoSans';
+    src: url(./fonts/NunitoSans/NunitoSans-Regular.ttf);
+    font-style: normal; 
+    font-weight: normal;
 }
 
+@font-face {
+    font-family: 'NunitoSans';
+    src: url(./fonts/NunitoSans/NunitoSans-Italic.ttf);
+    font-style: italic; 
+    font-weight: normal;
+}
 
 body{
     margin: 0;
-    font-family: 'Nunito Sans';
+    font-family: 'NunitoSans';
     
 }
 
@@ -39,6 +49,7 @@ body * {
 .header__logo{
     color: #E3B873;
     text-transform: uppercase;
+    margin-left: 92px;
 }
 
 .header__nav{
@@ -61,15 +72,23 @@ body * {
 }
 .button{
     background: #E3B873;
-    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    box-shadow: 0px 5px 15px rgba(158, 154, 147, 0.2);
     border-radius: 2px;
-    border: 0px;
+    border: 1px solid rgba(158, 154, 147);
     color: #FFFFFF;
     outline: 15px;
     padding: 13px 33px;
     text-transform: uppercase;
+    font-family: 'NunitoSans';
     font-style: italic;
-
+}
+button:hover{
+    cursor: pointer;
+}
+.button__clear{
+    background: none;
+    border: 1px solid #fff;
+    margin-left: 20px;
 }
 
 .hero{
@@ -94,11 +113,12 @@ body * {
 .hero__container{
     position: relative;
     z-index: 1;
+
 }
 
 .title{
     margin: 0px;
-    font-family: Yeseva One;
+    font-family: 'YesevaOne';
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -110,3 +130,11 @@ body * {
     color: #E3B873;
 }
 
+.subtitle{
+    font-family: 'NunitoSans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    margin: 19px 0px 41px;
+}
