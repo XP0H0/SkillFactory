@@ -501,3 +501,132 @@ button:hover{
     color: #FFFFFF;
     margin: 120px 0px 0px 31px;
 }
+
+.other{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url('./fonts/svg/background.svg');
+    background-repeat: no-repeat;
+    margin-top: 123px;
+
+}
+
+.other__list{
+    height: 1006px;
+    margin-top: 117px;
+
+}
+
+.number{
+    height: 100px;
+    width: 100px;
+    background-image: url('./fonts/svg/number.svg');
+    background-size: cover;
+    text-align: center;
+    font-family: 'YesevaOne';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 88px;
+    color: #FFFFFF;
+}
+
+.other__list__num{
+    display: flex;
+    flex-direction: row;
+}
+
+.other__text{
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #363636;
+}
+
+.reeq__2{
+    height: 508px;
+    width: 508px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #131313;
+    flex-direction: column;
+    /* padding-left: 49px; */
+}
+
+.request__2{
+    display: block;
+    margin-top: 117px;
+}
+
+.req__2{
+    color: rgba(255, 255, 255, .5);
+
+    margin-left: 49px;
+
+}
+
+.input__2{
+    background-color: #131313;
+    width: 409px;
+    color: white;
+
+}
+
+.input__2::-webkit-input-placeholder {
+    color: white; 
+}
+
+.agree__2{
+    color: white;
+    width: 400px;
+
+}
+
+.req2__text{
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button__2{
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 213px;
+    margin-left: 244px;
+    font-style: normal;
+    
+}
+.test__2{
+    margin-top: 5px;
+}
+
+.circle2{
+    position: absolute;
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    background: #E3B873;
+    margin: 38px 25px 0px 31px;
+
+}
+
+.pig{
+    position: relative;
+    z-index: 1;
+    top: 17px;
+    left: 17px;
+
+}
+
+.pig__text{
+    color: #E3B873;
+    font-size: 18px;
+    line-height: 26px;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+    margin-top: 51px;
+    margin-left: 129px;
+}
