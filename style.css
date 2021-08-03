@@ -74,7 +74,7 @@ body * {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(158, 154, 147, 0.2);
     border-radius: 2px;
-    border: 1px solid rgba(158, 154, 147);
+    border: 0px;
     color: #FFFFFF;
     outline: 15px;
     padding: 13px 33px;
@@ -252,4 +252,252 @@ button:hover{
 }
 .icon{
     fill: #E3B873;
+}
+
+.svg{
+ display: flex;
+ justify-content: center;
+ margin: 13px 0px 31px;
+
+}
+
+.center__svg{
+    margin: 0px 8px;
+}
+
+.preview{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    height: 434px;
+    width: 817px;
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.6);
+}
+
+.preview::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);  
+    z-index: 1;
+}
+
+.circle{
+    position: absolute;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    z-index: 2;
+    background: #E3B873;
+    top: 174px;
+    left: 365px;
+
+}
+
+.play{
+    height: 28px;
+    width: 28px;
+    margin: 0;
+    position: absolute;
+    z-index: 3;
+    color: white;
+    top: 28px;
+    left: 31px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+.hr__{
+    align-items: center;
+    color: #E3B873;
+    background-color: #E3B873;
+    border: none;
+    width: 55px;
+    height: 2px;
+    margin-top: 62px;
+}
+
+.main__p{
+    font-family: 'NunitoSans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    margin-top: 34px;
+}
+
+.request{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.reeq{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.req{
+    font-family: 'NunitoSans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+    margin-right: 50px;
+    width: 200px;
+}
+
+.input{
+ border: none;
+ border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
+.input:focus{
+    outline: none;
+}
+.SUBMIT{
+    width: 200px;
+}
+
+.agree{
+    text-align: center;
+    margin-top: 39px;
+    margin-bottom: 75px;
+}
+
+/* Customize the label (the container) */
+.checkbox__ {
+    position: relative;
+    padding-left: 25px;
+
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+/* Hide the browser's default checkbox */
+.checkbox__ input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+  
+/* Create a custom checkbox */
+.checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+}
+  
+/* On mouse-over, add a grey background color */
+.checkbox__:hover input ~ .checkbox {
+    background-color: #ccc;
+}
+  
+/* When the checkbox is checked, add a blue background */
+.checkbox__ input:checked ~ .checkbox {
+    background-color: #E3B873;
+}
+  
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+/* Show the checkmark when checked */
+.checkbox__ input:checked ~ .checkbox:after {
+    display: block;
+}
+  
+/* Style the checkmark/indicator */
+.checkbox__ .checkbox:after {
+    left: 6px;
+    top: 3px;
+    width: 3px;
+    height: 5px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.three__h3{
+    color: black;
+}
+.svg__repair{
+    margin-bottom: 31px;
+}
+
+.collage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.collage_info{
+    width: 400px;
+    position: relative;
+}
+
+.collage__list{
+    position:absolute;
+    margin: -179px 31px 28px;
+    background: #fff;
+    width: 286px;
+    height: 330px;
+    z-index: 1;
+    padding-left: 34px;
+}
+
+.collage__item{
+    font-family: 'NunitoSans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+    list-style-position: inside;
+    list-style: none;
+    padding: 0px;
+}
+.collage__h3{
+    font-family: 'YesevaOne';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+}
+
+.price{
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    background-color: #E3B873;
+    width: 228px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    font-family: 'YesevaOne';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 120px 0px 0px 31px;
 }
