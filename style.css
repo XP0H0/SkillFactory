@@ -513,7 +513,7 @@ button:hover{
 }
 
 .other__list{
-    height: 1006px;
+    height: 645px;
     margin-top: 117px;
 
 }
@@ -530,11 +530,13 @@ button:hover{
     font-size: 18px;
     line-height: 88px;
     color: #FFFFFF;
+
 }
 
 .other__list__num{
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
 }
 
 .other__text{
@@ -630,4 +632,107 @@ button:hover{
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
     margin-top: 51px;
     margin-left: 129px;
+}
+.partner{
+    height: 1000px;
+}
+.partner__subtitle{
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #363636;
+}
+
+.clients{
+    display: flex;
+    margin-top: 39px;
+    margin-left: 103px;
+
+}
+
+.client{
+    margin-left: 54px;
+}
+
+
+.clients__list{
+    padding-top: 13px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    height: 428px;
+    width: 376px;
+    padding-left: 20px;
+}
+
+.client__title{
+    display: flex;
+}
+
+.client__name{
+    font-family: 'YesevaOne';
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(24, 24, 24, 1);
+    margin: auto 23px;
+}
+
+.client__photo{
+    height: 76px;
+    width: 76px;
+    border-radius: 50%;
+}
+
+.avatar1{
+    background-image: url('./image/client1.jpg');
+}
+
+.avatar2{
+    background-image: url('./image/client2.png');
+}
+
+.avatar3{
+    background-image: url('./image/client3.png');
+}
+
+.client__info{
+    margin: 11px 32px 90px 0px;
+    max-height: 216px;
+}
+
+.info__text{
+    font-size: 13px;
+    line-height: 23px;
+    color: #959595;
+}
+
+.client__low{
+    display: flex;
+    width: 294px;
+    height: 54px;
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    margin-top: -27px;
+}
+
+.low__svg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.area{
+    width: 135px;
+
+}
+
+.notepad{
+    width: 159px;
+    border-left: 0.75px solid #FFFFFF;;
+}
+
+.low__text{
+    font-family: 'YesevaOne';
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
 }
