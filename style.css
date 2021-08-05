@@ -909,14 +909,26 @@ button:hover{
     }
     .hide__d{
         display: block;
-        padding-top: 36px;
+        background-image: url(./image/exposition_1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 36px 17px 0px;
+        height: 360px;
+
     }
     .hero__option{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         height: auto;
+        justify-content: center;
     }
+
+    .hero__option{
+        text-align: left;
+        margin-top: 36px;
+    }
+
 
 }
 
