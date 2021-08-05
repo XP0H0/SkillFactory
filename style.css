@@ -168,6 +168,9 @@ button:hover{
 
 }
 
+.hide__d{
+    display: none;
+}
 .hero__nav__list{
     margin-right: 61px;
 }
@@ -202,7 +205,7 @@ button:hover{
 .img__subtitle{
     padding-top: 69px;
     height: 482px;
-    width: 679px;
+    max-width: 679px;
 
 }
 .option__h3{
@@ -866,7 +869,7 @@ button:hover{
         height: 57px;
     }
 
-    nav, .button{
+    nav, .button__screen, .hide, .header__nav, .left-right{
         display: none;
     }
 
@@ -882,6 +885,9 @@ button:hover{
         color: #fff;
     }
 
+    .button__clear{
+        width: 209px;
+    }
     .title{
     font-size: 23px;
     line-height: 31px;
@@ -891,5 +897,33 @@ button:hover{
         font-size: 14px;
     line-height: 19px;
     }
+    .hide{
+        display: none;
+    }
+    .hero__admiral{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero__list{
+    text-align: center;
+    }
+    .hide__d{
+        display: block;
+        padding-top: 36px;
+    }
+    .hero__option{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+    }
 
+}
+
+
+@media screen and (max-width: 444px) {
+    .button__clear{
+        margin-top: 26px;
+        margin-left: 0px;
+    }
 }
