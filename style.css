@@ -745,14 +745,85 @@ button:hover{
 .end{
     height: 953px;
     background-image: url(./fonts/svg/end.svg);
-    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+    background-size: cover;
+    position: relative;
 }
 
 .end__submit{
+    position: absolute;
     width: 883px;
     height: 445px;
+    background: rgba(24, 24, 24, 1);
+    margin-top: -227px;
+    margin-left: 289px;
+    color: #fff;
+}
+
+.end::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
 }
 
 .end__submit2{
+    width: 520px;
+    height: 377px;
+    margin: 34px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.end__submit2__title{
+    font-family: 'YesevaOne';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.end__submit2__form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.req3{
+    color: rgba(255, 255, 255, .5);
+}
+
+.button__3{
+    display: flex;
+    justify-content: center;
+}
+
+.end__agree{
+    text-align: center;
+}
+
+.input__3{
+    background-color: rgba(24, 24, 24, 1);
+    width: 250px;
+    color: white;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+
+}
+
+.input__3::-webkit-input-placeholder {
+    color: white; 
+}
+
+.input__3:focus{
+     outline: none;
+}
+
+.input__4{
+    width: 520px;
 }
