@@ -67,6 +67,12 @@ body * {
     color: #fff;
 }
 
+.header__nav__link:hover{
+    text-decoration: underline;
+    color: #E3B873;
+    cursor: pointer;
+}
+
 .phone__link{
     color: #E3B873;    
 }
@@ -826,4 +832,22 @@ button:hover{
 
 .input__4{
     width: 520px;
+}
+
+.end__h3{
+    color: #E3B873;
+    margin-top: 82px;
+}
+
+.svg__link{
+    text-align: center;
+}
+
+.end__link{
+    margin-left: 15px;
+}
+
+.navigation{
+    text-align: center;
+    margin-top: 43px;
 }
