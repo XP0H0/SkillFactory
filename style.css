@@ -819,7 +819,7 @@ button:hover{
 
 .input__3{
     background-color: rgba(24, 24, 24, 1);
-    width: 250px;
+    width: 235px;
     color: white;
     border: none;
     border-bottom: 1px solid rgba(255, 255, 255, .15);
@@ -1037,6 +1037,15 @@ button:hover{
     }
     .img__m{
         max-width: 340px;
+    }
+    .end{
+        padding: 0px 18px;
+        background: black;
+        width: 100%;
+        height: auto;
+    }
+    .end__submit2__title{
+        align-self: center;
     }
 }
 
