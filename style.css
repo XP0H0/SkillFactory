@@ -870,7 +870,7 @@ button:hover{
         height: 57px;
     }
 
-    nav, .button__screen, .hide, .header__nav, .left-right{
+    nav, .button__screen, .hide, .header__nav, .left-right, .other, .partner, .footer{
         display: none;
     }
 
@@ -1019,7 +1019,24 @@ button:hover{
     .price{
         margin-bottom: 59px;
     }
-    
+    .end__submit{
+        margin: 0px;
+        width: 100%;
+        height: 460px;
+    }
+
+    .end__submit2{
+        align-items: flex-start;
+    }
+    .end__submit2__form{
+        display: block;
+    }
+    .input__4{
+        width: auto;
+    }
+    .img__m{
+        max-width: 340px;
+    }
 }
 
 
