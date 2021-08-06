@@ -1027,6 +1027,7 @@ button:hover{
 
     .end__submit2{
         align-items: flex-start;
+        width: 100%;
     }
     .end__submit2__form{
         display: block;
