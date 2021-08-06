@@ -1009,6 +1009,17 @@ button:hover{
     .in{
         width: 100%;
     }
+    .three{
+        margin-top: 83px;
+    }
+    .collage{
+        flex-direction: column;
+        align-items: center;
+    }
+    .price{
+        margin-bottom: 59px;
+    }
+    
 }
 
 
