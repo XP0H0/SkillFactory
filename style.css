@@ -986,6 +986,9 @@ button:hover{
         top: 40%;
         left: 35%;
     }
+    .play{
+        top: 25px;
+    }
     .input{
         background-color: black;
         border-bottom: 1px solid #fff;
