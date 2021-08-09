@@ -949,7 +949,7 @@ button:hover{
         margin-top: 0px;
         background-color: black;
     }
-    .main__h3{
+    .main__h3__m{
         margin-top: -1px;
     }
     .reeq{
@@ -1031,6 +1031,17 @@ button:hover{
     }
     .end__submit2__form{
         display: block;
+        padding: 0px 18px;
+        width: 100%;
+    }
+    .end__agree, .one__2{
+        padding: 0px 18px;
+    }
+    .end__email{
+        width: 100%;
+        padding: 0px 18px;
+        margin-top: 62px;
+        margin-bottom: 21px;
     }
     .input__4{
         width: auto;
@@ -1047,6 +1058,13 @@ button:hover{
     .end__submit2__title{
         align-self: center;
     }
+    .input__3{
+        width: 100%;
+    }
+    .one__2{
+        margin-top: 70px;
+    }
+
 }
 
 
